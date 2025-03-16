@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affinity Group Research: Community Analysis</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/charts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Affinity Group Research: Community Analysis</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="executive-summary" class="section">
+            <div class="container">
+                <div class="section-header" role="button" tabindex="0">
+                    <h2>Executive Summary</h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content summary-content">
+                    <!-- Content will be loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="methodology" class="section">
+            <div class="container">
+                <div class="section-header" role="button" tabindex="0">
+                    <h2>Research Methodology</h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content methodology-content">
+                    <!-- Content will be loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="visualizations" class="section">
+            <div class="container">
+                <div class="section-header" role="button" tabindex="0">
+                    <h2>Data Visualizations</h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content">
+                    <div class="charts-container" style="display: flex; flex-direction: column; gap: 4rem;">
+                        <div class="chart-section">
+                            <div class="chart-wrapper" style="height: 400px;">
+                                <canvas id="demographicsChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-section">
+                            <div class="chart-wrapper full-width">
+                                <canvas id="tamChart" style="width: 100%; height: 100%;"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion" class="section">
+            <div class="container">
+                <div class="section-header" role="button" tabindex="0">
+                    <h2>Conclusion</h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content conclusion-content">
+                    <p>Middle-aged and older adults are active participants in a wide array of interest-based communities – from traditional hobbies like gardening and fishing to professional pride groups like teachers and nurses. These 30 communities each offer a distinct avenue for affinity apparel, unified by strong camaraderie and purchasing power within their niche. Generally, broad hobbyist groups (gardening, cooking, pets) boast the largest total addressable markets in the tens of millions, making them fertile ground for widely appealing merchandise. Slightly smaller but still substantial are lifestyle and identity-based groups (travelers, veterans, grandparents) where emotional connection to the identity can drive apparel sales (often as gifts or personal pride). Even the narrower niches (ham radio, reenactors) show intense enthusiasm, suggesting that well-crafted offerings can find a loyal audience despite smaller numbers.</p>
+                    <p>For all these communities, authenticity is key – designs and messaging should resonate with the insider experience of members. Marketing strategies should leverage where each group congregates (e.g. targeted Facebook ads for mainstream hobbies, partnership with organizations or events for niche causes, and presence in online forums or real-world gatherings). A common thread is that many of these groups already embrace wearing apparel that symbolizes their passion or cause, so a new entrant can succeed by offering fresh, high-quality, and possibly more customized or creative options than currently available. A careful consideration of competition shows that while some niches (pets, veterans, teachers) are crowded with existing merchandise, others (genealogy, classic cars, etc.) have room for new, dedicated brands. In competitive spaces, differentiation through design quality, sub-niche targeting, or cause alignment (donations) can help capture market share.</p>
+                    <p>In summary, the research supports a diversified approach – prioritizing a mix of high-TAM communities (to ensure volume) and a few deeply passionate niche groups (to build brand cachet and specialized credibility). By aligning marketing with each community's online and offline touchpoints and by respecting the unique culture of each group, an eCommerce apparel brand can successfully tap into these interest communities. The data collected (see tables/charts attached) underscores the vast reach of mainstream hobbies like gardening, the significant online footprints of groups like RV campers and book lovers, and the proven merchandise appetite among teachers, nurses, and similar pride-driven professions. With the insights from this analysis, the client can confidently tailor product lines and marketing campaigns to the affinities of these diverse yet accessible groups, positioning the brand to engage customers who are eager to wear their passions on their sleeves – literally.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sources" class="section">
+            <div class="container">
+                <div class="section-header" role="button" tabindex="0">
+                    <h2>Sources</h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content sources-content">
+                    <ul>
+                        <li>Jay Gaulard, "America's Most Popular Hobbies" – stats on hobby participation (Cooking 42%, Reading 37%, etc.)</li>
+                        <li>AVMA Pet Ownership Survey – number of dog (59.8M) and cat (42.2M) owning households in U.S.</li>
+                        <li>AAA Newsroom – projection of 19 million Americans cruising in 2025 (18.2M in 2024); CLIA average cruiser age ~46</li>
+                        <li>RV Industry Association / ConsumerAffairs – ~11.2M U.S. households own RVs; median owner age 55</li>
+                        <li>Craft Industry statistics – 62% of households do crafting; 28.8M knit/crochet participants</li>
+                        <li>DripWorks Gardening Guide – 71.5M U.S. households (55%) engaged in gardening</li>
+                        <li>National Survey of Fishing, Hunting, Wildlife (USFWS) – 39.9M anglers and 14.4M hunters (16+ in 2022)</li>
+                        <li>Cornell Lab (Living Bird) – 96M Americans (35%) involved in birdwatching in 2022</li>
+                        <li>Pew Research – 18M living U.S. veterans (6% of adults)</li>
+                        <li>MagnifyMoney Collecting Survey – 61% of Americans consider themselves collectors (various items)</li>
+                        <li>MIC Motorcycle Stats – median owner age 50; ~8.8M registered motorcycles in US</li>
+                        <li>BLS/NCES – ~3.8M K-12 teachers in U.S. (public); NCCN – ~4M registered nurses in U.S.</li>
+                        <li>Breast Cancer Research Foundation – "more than 4 million breast cancer survivors in the U.S."</li>
+                        <li>Shelter Animals Count/ASPCA – ~4.1M shelter pets adopted per year (2M dogs, 2.1M cats)</li>
+                        <li>FCC/ARRL – ~750k licensed ham radio operators in U.S. (hobby aging, many >50)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="communities" class="section">
+            <div class="container">
+                <div class="section-header" role="button" tabindex="0">
+                    <h2>Community Profiles</h2>
+                    <span class="collapse-icon">▼</span>
+                </div>
+                <div class="section-content">
+                    <div class="communities-grid">
+                        <!-- Community cards will be loaded via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Modal content will be loaded via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MM-Research. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
